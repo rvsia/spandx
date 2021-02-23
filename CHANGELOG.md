@@ -1,3 +1,16 @@
+# [0.2.0](https://github.com/rvsia/spandx/compare/v2.1.1...v0.2.0) (2021-02-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency inquirer to v7.3.2 ([#155](https://github.com/rvsia/spandx/issues/155)) ([d4f7ec8](https://github.com/rvsia/spandx/commit/d4f7ec8bd706d2e502341857eadce7dec6bab948))
+* **deps:** update dependency inquirer to v7.3.3 ([#157](https://github.com/rvsia/spandx/issues/157)) ([df66f07](https://github.com/rvsia/spandx/commit/df66f073c1fd879a45603d3e119a27719c57d44c))
+* allow certain bs settings to be overridden ([#167](https://github.com/rvsia/spandx/issues/167)) ([3b55ea1](https://github.com/rvsia/spandx/commit/3b55ea11d7bb5c0c52bb1f2cd3964128b89b0045))
+* Do not use ESI middleware for text streams ([#141](https://github.com/rvsia/spandx/issues/141)) ([8a291d6](https://github.com/rvsia/spandx/commit/8a291d6006e55d465d863bfbc8742a8448c9de0c))
+* **deps:** update dependency yargs to v16 ([#164](https://github.com/rvsia/spandx/issues/164)) ([64dd001](https://github.com/rvsia/spandx/commit/64dd001be12ca6200d1d9a0bbc7edfeac52c9b58))
+
+
+
 ## [2.1.2](https://github.com/redhataccess/spandx/compare/v2.1.1...v2.1.2) (2020-07-01)
 
 
