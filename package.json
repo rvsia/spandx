@@ -1,6 +1,6 @@
 {
-    "name": "spandx",
-    "version": "2.1.2",
+    "name": "spandx-crc",
+    "version": "0.0.1",
     "description": "Develop locally, proxy to prod, browser-sync, inject Portal Chrome.",
     "main": "app/spandx.js",
     "bin": "app/cli.js",
@@ -32,7 +32,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com/redhataccess/spandx.git"
+        "url": "git+ssh://git@github.com/rvsia/spandx.git"
     },
     "keywords": [
         "proxy",
@@ -40,9 +40,9 @@
     ],
     "license": "GPL-3.0",
     "bugs": {
-        "url": "https://github.com/redhataccess/spandx/issues"
+        "url": "https://github.com/rvsia/spandx/issues"
     },
-    "homepage": "https://github.com/redhataccess/spandx#readme",
+    "homepage": "https://github.com/rvsia/spandx#readme",
     "dependencies": {
         "browser-sync": "^2.18.13",
         "connect": "^3.6.6",

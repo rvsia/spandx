@@ -104,6 +104,23 @@ module.exports = (conf, proxy) => {
             // but the file doesn't exist, in either case proxy to a remote server.
             if (localFile) {
                 const url = URL.parse(req.url);
+
+                if(url.pathname.includes('chrome-root')) {
+                    const folder = path.resolve(
+                        conf.configDir,
+                        resolveHome(route),
+                        'js'
+                    );
+
+                    const filename = glob.sync('chrome-root*js', { cwd: folder});
+
+                    console.log('\n\n\n\n local chrome entrypoints:', filename);
+
+                    if(filename[0]) {
+                        url.pathname = url.pathname.replace(/chrome-root.*/, filename[0])
+                    }
+                }
+
                 const relativeFilePath = url.pathname.replace(
                     new RegExp(`^${routeKey}/?`),
                     "/"
